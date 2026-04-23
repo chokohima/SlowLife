@@ -3,7 +3,7 @@
   "youtube_api_key":  "YOUR_YOUTUBE_DATA_API_KEY",
   "ollama_model":     "gemma3:4b",
   "ollama_url":       "http://localhost:11434",
-  "sub_to_villager_ratio": 10,
+  "sub_to_villager_ratio": 1,
   "monologue_interval_sec": 45,
   "fullscreen": false,
   "vsync": true

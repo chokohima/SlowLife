@@ -160,7 +160,7 @@ class VillageSimulator:
         subs = self.yt.get_subscriber_count()
         if subs is not None:
             self.state.subscriber_count = subs
-            # 登録者100人 = 村人10人 (スケール調整可)
+            # 既定は 登録者1人 = 村人1人（configでスケール調整可）
             self.state.villager_count = max(1, subs // self.cfg.sub_to_villager_ratio)
 
     def _handle_key(self, key):

@@ -21,7 +21,7 @@ class Config:
     ollama_url:   str       = "http://localhost:11434"
 
     # ゲームバランス
-    sub_to_villager_ratio: int  = 10   # 登録者N人 = 村人1人
+    sub_to_villager_ratio: int  = 1    # 登録者N人 = 村人1人（軽量運用向けに1:1を既定）
     monologue_interval_sec: int = 45   # 独り言間隔（秒）
 
     # 画面
